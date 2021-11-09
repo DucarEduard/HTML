@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<title>Formulär</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form method="Post" action="Tack_sidan.html">
+			Namn <input type="text" name="namn"><br>
+			Kön :<br>
+				<input type="radio" name="kon" value="M" checked>Man<br>
+				<input type="radio" name="kon" value="K">Kvina<br>
+			Favoriträtt :<br>
+				<input type="checkbox" name="Pasta Carbonara" value="PC" checked> Pasta Carbonara<br>
+				<input type="checkbox" name="Lasange" value="PC" checked> Lasange<br>
+				<input type="checkbox" name="Inklagad kål" value="PC">Inklagad kål<br>
+				Ris och grönsaker<input type="checkbox" name="Alla" value="PC"><br>
+				
+			<input type="submit" name="Skicka" value="Skicka !"><br>
+			<input type="reset" name="Skicka_inte" value="Skicka INTE!"><br>
+			Lösenord <input type="password" name="losenord" value="EduardCr7">
+			<br>
+			<select name="dropdown" size="1">
+				<option>Matematik</option>
+				<option>Svenska</option>
+				<option>Engelska</option>
+				<option>Idrot</option>
+				<option selected>Musik</option>
+			</select> är mitt favoritämne
+			<br>
+			<select name="dropdown" size="4" multiple>
+				<option>Matematik</option>
+				<option>Svenska</option>
+				<option>Engelska</option>
+				<option>Idrot</option>
+				<option selected>Musik</option>
+			</select> är mitt favoritämne
+			<br>
+			<textarea name="text" rows="4" cols="40"> Låååååååååååååååång text</textarea>
+		</form>
+	</body>
+</html>	

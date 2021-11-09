@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<title>Restaurang bokning</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<p>Bokningen gäller för minst 25 personer och max 150.</p>
+		<form method="Post" action="Bokning_tack_sida.html">
+		Namn<input type="text" name="namn"><br>
+		<select name="alergier" size="4" multiple>
+			<option>Glutenfritt</option>
+			<option>Laktosintolerans</option>
+			<option>Diabetes</option>
+			<option>Anat typ av alergi</option>
+			<option>Inga alergier</option>
+		</select> har jag för alergier.<br>
+		
+		Anat typ av alergi<input type="text" name="Anat typ av alergier"><br>
+		<select name="datum" size="1" max="250" min="100">
+			<option>22/10/2020</option>
+			<option>23/10/2020</option>
+			<option>24/10/2020</option>
+			<option>25/10/2020</option>
+			<option></option>
+		</select>är datumen jag vill boka.<br>
+		
+		<select name="tiden" size="1" max="300" min="100">
+			<option>8:00-10:00</option>
+			<option>10:30-12:30</option>
+			<option>13:00-15:00</option>
+			<option>15:30-17:30</option>
+			<option>18:00-20:00</option>
+		</select> är tiden jag vill boka.<br>
+			
+		<select name="matretter" size="4" multiple max="275" min="100">
+			<option>Pasta Carbonara</option>
+			<option>Tomater soppa</option>
+			<option>Yaggergrytta med potatismos</option>
+			<option>Salad</option>
+			<option>Frukt salad</option>
+			<option>Laxfylle</option>
+			<option>Lasange</option>
+			<option>Vegetariskt lasange</option>
+			<option>Pizza Diavlo</option>
+			<option>Pizza Capriciosa</option>
+			<option>Steckt ko med steckt potatis</option>
+			<option>Dagens speciell rett</option>
+		</select> är retetterna/retten som jag skulle villja ha.<br>
+		<input type="submit" name="Boka bord" value="Skicka !"><br>
+		<input type="reset" name="Boka inte" value="Skika Inte !"><br>
+		</form>
+	</body>
+</html>
