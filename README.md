@@ -21,11 +21,11 @@ Alternativ sätt att markera H1
 Alternativ sätt till H2
 -----------------------
 
-1 Detta
-2 Är 
-3 En 
-4 Numrerad
-5 Lista
+1. Detta
+2. Är 
+3. En 
+4. Numrerad
+5. Lista
 
 och 
 
