@@ -30,6 +30,6 @@ Alternativ sätt till H2
 och 
 
 * Detta 
-*är 
+* är 
 * en 
 * punktlista
